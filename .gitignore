@@ -1,0 +1,9 @@
+# Cartelle di lavoro di Terraform
+.terraform/
+
+# File di stato di Terraform (CONTENGONO DATI SENSIBILI)
+*.tfstate
+*.tfstate.backup
+
+# File zip generato
+lambda_function.zip
