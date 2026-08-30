@@ -1,6 +1,6 @@
 resource "aws_db_subnet_group" "db_subnet_group" {
   name       = "main-db-subnet-group"
-  subnet_ids = module.vpc.private_subnets
+  subnet_ids = module.vpc.database_subnets
 
   tags = {
     Name = "main-db-subnet-group"
