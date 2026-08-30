@@ -43,7 +43,7 @@ resource "aws_security_group" "ec2_sg" {
 # 3. Security Group per PostgreSQL
 resource "aws_security_group" "db_sg" {
   name        = "db-security-group"
-  description = "Consente traffico HTTP in ingresso da ec2"
+  description = "Consente traffico PostgreSQL in ingresso da ec2"
   vpc_id      = module.vpc.vpc_id
 
   ingress {
