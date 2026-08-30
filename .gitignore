@@ -4,6 +4,7 @@
 # File di stato di Terraform (CONTENGONO DATI SENSIBILI)
 *.tfstate
 *.tfstate.backup
+*.tfvars
 
 # File zip generato
 lambda_function.zip
