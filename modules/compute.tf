@@ -35,3 +35,4 @@ resource "aws_lb_target_group_attachment" "app_attachment" {
   target_id        = aws_instance.app_server[count.index].id
   port             = 80
 }
+# updated

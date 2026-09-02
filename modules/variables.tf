@@ -10,3 +10,4 @@ variable "db_password" {
   sensitive   = true
 }
 # commento per aggiornare stato commit
+# updated

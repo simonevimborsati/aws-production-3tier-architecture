@@ -21,3 +21,4 @@ resource "aws_db_instance" "postgres_db" {
   skip_final_snapshot    = true    
   publicly_accessible    = false
 }
+# updated
