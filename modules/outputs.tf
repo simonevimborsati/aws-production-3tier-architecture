@@ -9,4 +9,3 @@ output "db_endpoint" {
   description = "Endpoint di connessione al Database PostgreSQL"
   value       = aws_db_instance.postgres_db.endpoint
 }
-# updated

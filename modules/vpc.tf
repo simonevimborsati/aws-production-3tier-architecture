@@ -19,4 +19,3 @@ module "vpc" {
     Environment = "dev"
   }
 }
-# updated

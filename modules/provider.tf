@@ -9,4 +9,3 @@ terraform {
 
 provider "aws" {
 }
-# updated
